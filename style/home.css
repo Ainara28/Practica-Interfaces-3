@@ -1,0 +1,51 @@
+*{ /*Selector universal*/
+    margin:0px; /*Eliminamos margenes y paddings para que no haya errores*/
+    padding: 0px;
+    box-sizing: border-box; /*Para que el borde y padding esten incluido en el width*/
+    scroll-behavior: smooth; /*Para que haga scroll cuando se pinche en alguna caja con link activo*/
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    background-image: url('../images/fondo-header.jpeg'); /*Imagen de fondo y su posición*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    height: 100%;
+}
+
+.buscador{
+    margin-left: 10%;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    align-items: center;
+    padding: 0.7%;
+    justify-content: space-around;
+}
+
+.lupa{
+    height: 2vh;
+    margin-right: 5%;
+}
+
+.carrito{
+    height: 6vh;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.principal{
+    margin-left: 10%;
+}
+
+.catalogo{
+    margin: 0 5%;
+}
