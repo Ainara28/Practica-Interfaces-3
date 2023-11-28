@@ -56,6 +56,7 @@ body{
     height: 120%;
     margin-right: 10%;
     margin-left: 3.5%;
+    width: auto;
 }
 
 .buscador{
@@ -308,4 +309,43 @@ li{
     width: 12%;
     height: auto;
     margin: 0 2%;
+}
+
+@media (max-width: 760px){
+    *{
+        border: 1px solid rgb(0, 0, 0);
+    }
+    .principal, .catalogo, .personalizado{
+        font-size: 1em;
+    }
+
+    #logo{
+        margin-left: 1%;
+        margin-right: 2%;
+        width: 20%;
+        height: auto;
+    }
+
+    .prods{
+        flex-direction: column; 
+    }
+
+    .prod{
+        margin: 1%;
+    }
+
+    .boton{
+        width: 14%;
+        padding: 1%;
+    }
+
+    body{
+        margin-bottom: 22%;
+    }
+}
+
+@media (max-width: 680px) {
+    *{
+        border: 1px solid rgb(0, 0, 0);
+    }
 }
