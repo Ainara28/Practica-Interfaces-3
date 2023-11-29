@@ -133,31 +133,18 @@ body{
     position: relative;
     margin-top: -3%;
     z-index: 0;
+}    
+
+.politica{
+    border-radius: 15px;
+    margin: 1%;
+    padding: 1%;
+    background-color: #d0d0d0;
+    font-family: "Poppings_medium", serif;
 }
 
-
-.productos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0.5%;
-}
-
-.novedades, .oferta{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-}
-
-.separator{
-    width: 2px; /* Ancho de la línea vertical */
-    height: 55vh; /* Altura de la línea vertical, ajusta según sea necesario */
-    background-color: #707070; /* Color de la línea vertical */
-}
-
-.separator.f{
-    height: 10vh;
+.politica b{
+    font-size:x-large;
 }
 
 .texto{
@@ -168,101 +155,6 @@ body{
     text-underline-offset: 3px;
     text-align: center;
     font-size: 4em;
-}
-
-.prods{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    width: 100%;
-}
-
-.prod{
-    background-color: rgb(192, 192, 192);
-    margin: 0 3%;
-}
-
-.img-container {
-    position: relative;
-    display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
-}
-
-.circle1, .circle2 {
-    font-family: "Poppings_medium", serif;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20%;
-    height: 20%;
-    margin-top: 3%;
-    margin-right: 3%;
-    border-radius: 50%; /* Para que el div sea un círculo */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.circle1{
-    background-color: #00e7c1;
-}
-
-.circle2{
-    background-color: rgb(247, 87, 87);
-}
-
-.discount{
-    display: flex;
-}
-
-.text1, .text2, .text3, .text4{
-    margin-left: 4%;
-}
-
-.text2, .text4{
-    font-family: "Poppings_light", serif;
-}
-
-.text1, .text3{
-    font-family: "Poppings_semibold", serif;
-}
-
-.text4{
-    color: rgb(75, 75, 75);
-    text-decoration: line-through;
-    text-decoration-thickness: 2px;
-}
-
-.like{
-    display: flex;
-    justify-content: right;
-    margin-bottom: 4%;
-    margin-right: 4%;
-}
-
-.centered{
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-}
-
-.boton{
-    width: 10%;
-    background-color: rgb(240, 111, 143);
-    border: none;
-    padding: 0.5% 2%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-family: "Poppings_light", serif;
-    border-radius: 100px;
-    text-align: center;
-    color: white;
-}
-
-h2{
-    font-size: 150%;
 }
 
 footer{
@@ -280,6 +172,12 @@ footer{
     align-items: center;
     justify-content: space-around;
     font-family: "Inter", serif;
+}
+
+.separator.f{
+    width: 2px; /* Ancho de la línea vertical */
+    background-color: #707070; /* Color de la línea vertical */
+    height: 10vh; /* Altura de la línea vertical, ajusta según sea necesario */
 }
 
 .f_info, .f_redes, .f_nosotros{
