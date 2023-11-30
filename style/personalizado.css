@@ -231,6 +231,9 @@ body{
     display: flex;
     align-items: center;
     height: 2.5em;
+    resize: none;
+    font-size: large;
+    font-family: "Poppings_Light", serif;
 }
 
 .diseño:focus, .tamaño:focus, .colores:focus, .descripcion:focus {
