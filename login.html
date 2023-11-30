@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Log In</title> <!-- Título de la web -->
+        <link rel="stylesheet" type="text/css" href="style/login.css"> <!-- Referencia al archivo css -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script/login.js"></script>
+    </head>
+
+    <body>
+        <section class="header">
+            <img src="images/logo.png" alt="Logo" id="logo">
+            <h2 class="principal">Página Principal</h2>
+            <h2 class="catalogo">Catálogo</h2>
+            <h2 class="personalizado">Pedido personalizado</h2>
+            <div class="buscador">
+                <img src="images/lupa.png" alt="lupa" class="lupa">Buscar
+            </div>
+            <div class="usuario"><div class="p_circle"><img src="images/Profile.png" alt="user" class="profile"></div>Perfil ↓</div>
+            <img src="images/carrito.png" alt="carrito" class="carrito">
+        </section>
+        <div class="formularios">
+            <section class="form">
+                <blockquote> <!-- Titulo con barra lateral -->
+                    <h1>Iniciar sesión</h1>
+                </blockquote>
+                <form> <!-- Datos a rellenar de inicio de sesion-->
+                    <div>                        
+                        <input type="text" id="mail-log" name="mail" placeholder="Escribe aquí tu correo electrónico ">
+                        <label class="active" for="dni">Correo</label>
+                    </div>   
+
+                    <div>
+                        <input type="text" id="password-log" name="password" placeholder="Escribe aquí tu contraseña">
+                        <label class="active" for="dni">Contraseña</label>
+                    </div>
+
+                    <div id="mensaje-log"></div>
+
+                    <input type="button" id="back-log" value="Volver">
+                    <input type="button" id="empty-log" value="Vaciar celdas">
+                    <input type="button" id="log" value="Iniciar">
+
+                </form>
+            </section>
+            <section class="separadores">
+                <div class="separator"></div>
+                <h1>O</h1>
+                <div class="separator"></div>
+            </section>
+            <section class="form">
+                <blockquote> <!-- Titulo con barra lateral -->
+                    <h1>Crea una cuenta</h1>
+                </blockquote>
+                <form> <!-- Datos a rellenar del registro -->
+                    <div>
+                        <input type="text" id="name" name="nombre y apellidos" placeholder="Escribe aquí tu nombre y apellido(s)">
+                        <label class="active" for="dni">Nombre de usuario</label>
+                    </div>
+
+                    <div>
+                        <input type="text" id="mail" name="mail" placeholder="Escribe aquí tu correo electrónico">
+                        <label class="active" for="dni">Correo</label>
+                    </div>   
+
+                    <div>
+                        <input type="text" id="password" name="password" placeholder="Establece aquí tu contraseña">
+                        <label class="active" for="dni">Contraseña</label>
+                    </div>
+
+                    <div id="mensaje"></div>
+
+                    <input type="button" id="back" value="Volver">
+                    <input type="button" id="empty" value="Vaciar celdas">
+                    <input type="button" id="sign" value="Registrarse">
+
+                </form>
+            </section>
+        </div>
+    </body>
+    <footer>
+        <div class="f_info">
+            <h3 class="f_margin">Información</h3>
+            <ul class="info">
+                <li>> Política de devolución<img class="f_imgs1" src="images/devolucion.png" alt="devolución"></li>
+                <li>> Envíos<img class="f_imgs1" src="images/envios.png" alt="envios"></li>
+                <li>> Copyright<img class="f_imgs1" src="images/copyright.png" alt="copyright"></li>
+            </ul>
+        </div>
+        <div class="separator f"></div>
+        <div class="f_redes">
+            <h3 class="f_margin">Redes sociales</h3>
+            <ul class="redes">
+                <li>> Instagram<img class="f_imgs2" src="images/instagram.png" alt="instagram"></li>
+                <li>> Twitter<img class="f_imgs2" src="images/twitter.png" alt="twitter"></li>
+                <li>> TikTok<img class="f_imgs2" src="images/tiktok.png" alt="tiktok"></li>
+            </ul>
+        </div>
+        <div class="separator f"></div>
+        <div class="f_nosotros">
+            <h3 class="f_margin">Sobre Nosotros</h3>
+            <ul class="nosotros">
+                <li>> Quiénes somos</li>
+                <li><img class="f_imgs3" src="images/pin.png" alt="pin">Donde estamos</li>
+                <li><img class="f_imgs3" src="images/phone.png" alt="phone">Contacto</li>
+            </ul>
+            <ul class="nosotros adicional">
+                <li></li>
+                <li>Calle de Margaritas<br>
+                    30012 Madrid España
+                </li>
+                <li>kaykiscrochet@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</html>
