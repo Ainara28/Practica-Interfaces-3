@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Home</title> <!-- Título de la web -->
+        <link rel="stylesheet" type="text/css" href="style/personalizado.css"> <!-- Referencia al archivo css -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Importar biblioteca jquery -->
+        <script src="script/personalizado.js"></script>
+    </head>
+    <body> <!-- Cuerpo de la web  -->
+        <section class="header">
+            <img src="images/logo.png" alt="Logo" id="logo">
+            <h2 class="principal">Página Principal</h2>
+            <h2 class="catalogo">Catálogo</h2>
+            <h2 class="personalizado">Pedido personalizado</h2>
+            <div class="buscador">
+                <img src="images/lupa.png" alt="lupa" class="lupa">Buscar
+            </div>
+            <div class="usuario"><div class="p_circle"><img src="images/Profile.png" alt="user" class="profile"></div>Perfil ↓</div>
+            <img src="images/carrito.png" alt="carrito" class="carrito">
+        </section>
+        <section class="foryou"><img src="images/pedido-personalizado.png" alt="foryou" class="foryouimg"></section>
+        <section class="body_personalizado">
+            <section class="imagenes">
+                <h2>Imágenes</h2>
+                <div class="imagen">
+                    <label for="uploadButton">
+                        <img src="images/upload.png" alt="upload" class="upload">
+                      </label>
+                      <button id="deleteButton" onclick="deleteImage()" aria-label="Eliminar imagen">X</button>
+                      <input type="file" id="uploadButton" accept=".jpeg, .jpg, .png">
+                </div>
+                <h5>Formatos aceptados: .jpg, .jprg y .png</h5>
+            </section>
+            <section class="pedido_informacion">
+                <h2>Nombre del diseño</h2>
+                <textarea class="diseño" contenteditable="true"></textarea>
+                <h2>Tamaño</h2>
+                <textarea name="tamaño" class="tamaño"></textarea>
+                <h2>Colores</h2>
+                <textarea class="colores" contenteditable="true"></textarea>
+                <h2>Descripción</h2>
+                <textarea class="descripcion" contenteditable="true"></textarea>
+                <button class="enviar">Enviar</button>
+            </section>
+        </section>
+    </body>
+    <footer>
+        <div class="f_info">
+            <h3 class="f_margin">Información</h3>
+            <ul class="info">
+                <li>> Política de devolución<img class="f_imgs1" src="images/devolucion.png" alt="devolución"></li>
+                <li>> Envíos<img class="f_imgs1" src="images/envios.png" alt="envios"></li>
+                <li>> Copyright<img class="f_imgs1" src="images/copyright.png" alt="copyright"></li>
+            </ul>
+        </div>
+        <div class="separator f"></div>
+        <div class="f_redes">
+            <h3 class="f_margin">Redes sociales</h3>
+            <ul class="redes">
+                <li>> Instagram<img class="f_imgs2" src="images/instagram.png" alt="instagram"></li>
+                <li>> Twitter<img class="f_imgs2" src="images/twitter.png" alt="twitter"></li>
+                <li>> TikTok<img class="f_imgs2" src="images/tiktok.png" alt="tiktok"></li>
+            </ul>
+        </div>
+        <div class="separator f"></div>
+        <div class="f_nosotros">
+            <h3 class="f_margin">Sobre Nosotros</h3>
+            <ul class="nosotros">
+                <li>> Quiénes somos</li>
+                <li><img class="f_imgs3" src="images/pin.png" alt="pin">Donde estamos</li>
+                <li><img class="f_imgs3" src="images/phone.png" alt="phone">Contacto</li>
+            </ul>
+            <ul class="nosotros adicional">
+                <li></li>
+                <li>Calle de Margaritas<br>
+                    30012 Madrid España
+                </li>
+                <li>kaykiscrochet@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</html>
