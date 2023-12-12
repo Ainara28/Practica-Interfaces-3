@@ -52,8 +52,13 @@ body{
     font-family: "Inter", serif;
 }
 
+.header h2 a{
+    text-decoration: none;
+    color: black;
+}
+
 #logo{
-    height: 120%;
+    height: 13em;
     margin-right: 10%;
     margin-left: 3.5%;
     width: auto;
@@ -280,6 +285,11 @@ footer{
     align-items: center;
     justify-content: space-around;
     font-family: "Inter", serif;
+}
+
+footer li a{
+    text-decoration: none;
+    color: black;
 }
 
 .f_info, .f_redes, .f_nosotros{
