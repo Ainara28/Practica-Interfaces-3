@@ -93,6 +93,11 @@ body{
     font-size: x-large;
 }
 
+.usuario a{
+    color: white;
+    text-decoration: none;
+}
+
 .p_circle{
     padding: 4%;
     height: 78%;

@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box; /*Para que el borde y padding esten incluido en el width*/
     scroll-behavior: smooth; /*Para que haga scroll cuando se pinche en alguna caja con link activo*/
+    overflow-x: hidden;
     /*border: 1px solid rgb(0, 0, 0);*/
 }
 
@@ -51,8 +52,13 @@ body{
     font-family: "Inter", serif;
 }
 
+.header h2 a{
+    text-decoration: none;
+    color: black;
+}
+
 #logo{
-    height: 120%;
+    height: 13em;
     margin-right: 10%;
     margin-left: 3.5%;
     width: auto;
@@ -85,6 +91,12 @@ body{
     align-items: center;
     color: white;
     font-size: x-large;
+}
+
+
+.usuario a{
+    color: white;
+    text-decoration: none;
 }
 
 .p_circle{
@@ -275,6 +287,11 @@ footer{
     align-items: center;
     justify-content: space-around;
     font-family: "Inter", serif;
+}
+
+footer li a{
+    text-decoration: none;
+    color: black;
 }
 
 .f_info, .f_redes, .f_nosotros{
