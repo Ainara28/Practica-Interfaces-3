@@ -148,7 +148,7 @@ body{
 
 
 .productos{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin-top: 0.5%;
@@ -157,18 +157,8 @@ body{
 .novedades, .oferta{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     align-items: center;
-}
-
-.separator{
-    width: 2px; /* Ancho de la línea vertical */
-    height: 55vh; /* Altura de la línea vertical, ajusta según sea necesario */
-    background-color: #707070; /* Color de la línea vertical */
-}
-
-.separator.f{
-    height: 10vh;
 }
 
 .texto{
