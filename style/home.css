@@ -8,7 +8,7 @@
 }
 
 body{
-    margin-bottom: 9%;
+    margin-bottom: 0%;
 }
 
 @font-face {
@@ -91,7 +91,6 @@ body{
     align-items: center;
     color: white;
     font-size: x-large;
-    justify-content: center;
 }
 
 
@@ -347,6 +346,7 @@ li{
     height: auto;
     margin: 0 2%;
 }
+
 @media (max-width: 1375px){
     .principal, .catalogo, .personalizado{
         font-size: 1.2em;
@@ -365,24 +365,43 @@ li{
     }
 
     
-    .usuario a{
-        display: inline-block;
-        text-decoration: none;
+    .usuario{
+        width: fit-content;
+        width: 1.9em;
+        height: 1.9em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
     }
 
     .p_circle{
-        width: 40px;
-        
-    }
-    img.carrito{
-        width: 30px;
-        height: 30px;
+        width: 2em;
+        height: 1.6em;
+        margin-left: 7px;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
     }
 
+    .profile{
+        margin-left: 0%;
+    }
+
+
+    .usuario a{
+        font-size: 0px;
+    }
+
+    img.carrito{
+        width: 3%;
+        height: 15%;
+        margin-right: 3%;
+    }
     #logo{
         margin-left: 1%;
         margin-right: 10%;
-        width: 100px;
+        width: 150px;
         height: 70%;
     }
 
@@ -391,23 +410,53 @@ li{
         margin-bottom: 10px;
     }
 
+    
+    .foto{
+        width: 150px;
+    }
+
+    .circle1{
+        font-size: 70%;
+    }
+
+    .circle2{
+        font-size: 70%;
+    }
+
+    .prod{
+        margin-bottom: 10px;
+    }
+    .text1{
+        font-size: 15px;
+    }
+
+    .text2{
+        font-size: 15px;
+    }
+
     footer{
         position:sticky;
         flex-direction: column;
 
     }
     ul.info{
+        margin-top: 10px;
         width: 100%;
         flex-direction: row;
         justify-content: center;
     }
     .f_info{
+        margin-top: 10px;
         width: fit-content;
     }
     .f_redes{
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 350px;
     }
     .f_nosotros{
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: fit-content;
     }
     .adicional li{
@@ -452,25 +501,45 @@ li{
         width: fit-content;
     }
 
-
-    .usuario a{
-        font-size: 0px;
+    
+    .usuario{
+        width: fit-content;
+        width: 1.9em;
+        height: 1.9em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
         overflow: visible;
     }
 
     .p_circle{
-        width: 40px;
-        
+        width: 2em;
+        height: 1.6em;
+        margin-left: 7px;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
     }
+
+    .profile{
+        margin-left: 0%;
+    }
+
+
+    .usuario a{
+        font-size: 0px;
+    }
+
     img.carrito{
-        width: 30px;
-        height: 30px;
+        width: 3%;
+        height: 15%;
+        margin-right: 3%;
     }
 
     #logo{
         margin-left: 1%;
         margin-right: 10%;
-        width: 100px;
+        width: 150px;
         height: 70%;
     }
 
@@ -548,25 +617,45 @@ li{
         width: fit-content;
     }
 
-
-    .usuario a{
-        font-size: 0px;
+   
+    .usuario{
+        width: fit-content;
+        width: 1.9em;
+        height: 1.9em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
         overflow: visible;
     }
 
     .p_circle{
-        width: 40px;
-       
+        width: 2em;
+        height: 1.6em;
+        margin-left: 7px;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
     }
+
+    .profile{
+        margin-left: 0%;
+    }
+
+
+    .usuario a{
+        font-size: 0px;
+    }
+
     img.carrito{
-        width: 30px;
-        height: 30px;
+        width: 3%;
+        height: 15%;
+        margin-right: 3%;
     }
 
     #logo{
         margin-left: 1%;
         margin-right: 10%;
-        width: 100px;
+        width: 150px;
         height: 70%;
     }
 
@@ -628,72 +717,63 @@ li{
 }
 
 @media (max-width: 900px){
+
+/*******************HEADER*********************/
     .principal, .catalogo, .personalizado{
         font-size: 1em;
         margin: 0px;
         width: 50%;
         overflow: visible;
     }
-
     .header h2{
         width: fit-content;
         margin-right: 10px;
     }
-
     .buscador{
         width: 60px;
+    }
+    
+    .usuario{
+        width: fit-content;
+        width: 1.9em;
+        height: 1.9em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+
+    .p_circle{
+        width: 2em;
+        height: 1.6em;
+        margin-left: 7px;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile{
+        margin-left: 0%;
     }
 
 
     .usuario a{
         font-size: 0px;
-        overflow: visible;
     }
 
-    .p_circle{
-        width: 40px;
-        
-    }
     img.carrito{
-        width: 20px;
-        height: 20px;
+        width: 3.5%;
+        height: 15%;
+        margin-right: 3%;
     }
-
     #logo{
         margin-left: 1%;
         margin-right: 10%;
-        width: 100px;
+        width: 150px;
         height: 70%;
     }
-    
+/**********************FIN DE HEADER**********************/ 
 
-    .novedades h3{
-        font-size: 30px;
-    }
-
-    .foto{
-        width: 150px;
-    }
-
-    .text1{
-        font-size: 15px;
-    }
-
-    .text2{
-        font-size: 15px;
-    }
-
-    .oferta h3{
-        font-size: 30px;
-    }
-
-    .centered{
-        margin-bottom: 10px;
-    }
-
-    .boton{
-        width: 150px;
-    }
 
 /*Responsive para el footer*/
     footer{
@@ -737,11 +817,12 @@ li{
     .f_imgs1 {
         display: none;
     }
+/*****************FIN DE FOOTER*********/
 }
 
 @media (max-width: 760px){
     .principal, .catalogo, .personalizado{
-        font-size: 0.8em;
+        font-size: 1em;
         margin: 0px;
         width: 50%;
         overflow: visible;
@@ -755,22 +836,42 @@ li{
     .buscador{
         width: 60px;
     }
-
-
-    .usuario a{
-        font-size: 0px;
+    
+    .usuario{
+        width: fit-content;
+        width: 1.9em;
+        height: 1.9em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
         overflow: visible;
     }
 
     .p_circle{
-        width: 40px;
-        
-    }
-    img.carrito{
-        width: 20px;
-        height: 20px;
+        width: 2em;
+        height: 1.6em;
+        margin-left: 7px;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
     }
 
+    .profile{
+        margin-left: 0%;
+    }
+
+
+    .usuario a{
+        font-size: 0px;
+    }
+
+    img.carrito{
+        width: 4%;
+        height: 15%;
+        margin-right: 3%;
+    }
+
+    
     #logo{
         margin-left: 1%;
         margin-right: 10%;
@@ -779,33 +880,6 @@ li{
     }
     
 
-    .novedades h3{
-        font-size: 30px;
-    }
-
-    .foto{
-        width: 150px;
-    }
-
-    .prods{
-        flex-direction: column;
-    }
-
-    .prod{
-        margin-bottom: 10px;
-    }
-
-    .text1{
-        font-size: 15px;
-    }
-
-    .text2{
-        font-size: 15px;
-    }
-
-    .oferta h3{
-        font-size: 30px;
-    }
 
     .centered{
         margin-bottom: 10px;
@@ -883,29 +957,46 @@ li{
         width: 60px;
     }
 
-    .usuario a{
-        font-size: 0px;
+
+    .usuario{
+        width: fit-content;
+        width: 1.9em;
+        height: 1.9em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
         overflow: visible;
     }
 
-
     .p_circle{
-        width: 40px;
-        
+        width: 2em;
+        height: 1.6em;
+        margin-left: 7px;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
     }
+
+    .profile{
+        margin-left: 0%;
+    }
+
+
+    .usuario a{
+        font-size: 0px;
+    }
+
     img.carrito{
-        width: 20px;
-        height: 20px;
+        width: 5%;
+        height: 15%;
+        margin-right: 3%;
     }
 
 
     .novedades h3{
-        font-size: 30px;
+        font-size: 20px;
     }
 
-    .foto{
-        width: 150px;
-    }
 
     .prods{
         flex-direction: column;
@@ -964,9 +1055,7 @@ li{
         width: fit-content;
     }
 
-    body{
-        height: fit-content;
-    }
+    
     .enlace_footer{
         font-size: 15px;
         margin-left: 30px;
