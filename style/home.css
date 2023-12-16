@@ -91,6 +91,7 @@ body{
     align-items: center;
     color: white;
     font-size: x-large;
+    justify-content: center;
 }
 
 
@@ -363,18 +364,15 @@ li{
         width: fit-content;
     }
 
-    .usuario{
-        width: auto;
-    }
+    
     .usuario a{
-        font-size: 0px;
-        width: 10px;
-        overflow: visible;
+        display: inline-block;
+        text-decoration: none;
     }
 
     .p_circle{
         width: 40px;
-        margin-left: 10px;
+        
     }
     img.carrito{
         width: 30px;
@@ -454,18 +452,15 @@ li{
         width: fit-content;
     }
 
-    .usuario{
-        width: auto;
-    }
+
     .usuario a{
         font-size: 0px;
-        width: 10px;
         overflow: visible;
     }
 
     .p_circle{
         width: 40px;
-        margin-left: 10px;
+        
     }
     img.carrito{
         width: 30px;
@@ -553,18 +548,15 @@ li{
         width: fit-content;
     }
 
-    .usuario{
-        width: auto;
-    }
+
     .usuario a{
         font-size: 0px;
-        width: 10px;
         overflow: visible;
     }
 
     .p_circle{
         width: 40px;
-        margin-left: 10px;
+       
     }
     img.carrito{
         width: 30px;
@@ -652,18 +644,15 @@ li{
         width: 60px;
     }
 
-    .usuario{
-        width: auto;
-    }
+
     .usuario a{
         font-size: 0px;
-        width: 10px;
         overflow: visible;
     }
 
     .p_circle{
         width: 40px;
-        margin-left: 10px;
+        
     }
     img.carrito{
         width: 20px;
@@ -767,18 +756,15 @@ li{
         width: 60px;
     }
 
-    .usuario{
-        width: auto;
-    }
+
     .usuario a{
         font-size: 0px;
-        width: 10px;
         overflow: visible;
     }
 
     .p_circle{
         width: 40px;
-        margin-left: 10px;
+        
     }
     img.carrito{
         width: 20px;
@@ -899,17 +885,13 @@ li{
 
     .usuario a{
         font-size: 0px;
-        width: 10px;
         overflow: visible;
     }
 
-    .usuario{
-        width: fit-content;
-    }
 
     .p_circle{
         width: 40px;
-        margin-left: 10px;
+        
     }
     img.carrito{
         width: 20px;
