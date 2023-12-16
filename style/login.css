@@ -180,7 +180,7 @@ body{
     flex-direction: column-reverse;
     font-family: "Poppings_light", serif;
     font-size: medium;
-    color: rgb(134, 134, 134);
+    color: rgb(109, 109, 109);
 }
 .form input[type="text"]{
     border-radius: 8px;

@@ -216,11 +216,11 @@ body{
 }
 
 .circle1{
-    background-color: #00e7c1;
+    background-color: #00836d;
 }
 
 .circle2{
-    background-color: rgb(247, 87, 87);
+    background-color: rgb(158, 55, 55);
 }
 
 .discount{
@@ -261,7 +261,7 @@ body{
 
 .boton{
     width: 10%;
-    background-color: rgb(240, 111, 143);
+    background-color: rgb(177, 81, 105);
     border: none;
     padding: 0.5% 2%;
     align-items: center;

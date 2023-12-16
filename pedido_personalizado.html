@@ -2,7 +2,7 @@
 <html lang="es">
     <head> 
         <meta charset="UTF-8">
-        <title>Home</title> <!-- Título de la web -->
+        <title>Pedido personalizado</title> <!-- Título de la web -->
         <link rel="stylesheet" type="text/css" href="style/personalizado.css"> <!-- Referencia al archivo css -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Importar biblioteca jquery -->
         <script src="script/personalizado.js"></script>
@@ -16,7 +16,7 @@
             <div class="buscador">
                 <img src="images/lupa.png" alt="lupa" class="lupa">Buscar
             </div>
-            <div class="usuario"><a href="login.html"><div class="p_circle"><img src="images/Profile.png" alt="user" class="profile"></a></div><a href="login.html">Perfil ↓</a></div>
+            <div class="usuario"><div class="p_circle"><img src="images/Profile.png" alt="user" class="profile"></div><a href="login.html">Perfil ↓</a></div>
             <img src="images/carrito.png" alt="carrito" class="carrito">
         </section>
         <section class="foryou"><img src="images/pedido-personalizado.png" alt="foryou" class="foryouimg"></section>
@@ -33,14 +33,14 @@
                 <h5>Formatos aceptados: .jpg, .jprg y .png</h5>
             </section>
             <section class="pedido_informacion">
-                <h2>Nombre del diseño</h2>
-                <textarea class="diseño" contenteditable="true"></textarea>
-                <h2>Tamaño</h2>
-                <textarea name="tamaño" class="tamaño"></textarea>
-                <h2>Colores</h2>
-                <textarea class="colores" contenteditable="true"></textarea>
-                <h2>Descripción</h2>
-                <textarea class="descripcion" contenteditable="true"></textarea>
+                <label for="diseño"><h2>Nombre del diseño</h2></label>
+                <textarea class="diseño" contenteditable="true" id="diseño"></textarea>
+                <label for="tamaño"><h2>Tamaño</h2></label>
+                <textarea name="tamaño" class="tamaño" id="tamaño"></textarea>
+                <label for="colores"><h2>Colores</h2></label>
+                <textarea class="colores" contenteditable="true" id="colores"></textarea>
+                <label for="descripcion"><h2>Descripción</h2></label>
+                <textarea class="descripcion" contenteditable="true" id="descripcion"></textarea>
                 <button class="enviar">Enviar</button>
             </section>
         </section>
